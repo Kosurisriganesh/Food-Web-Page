@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup to website</title>
+</head>
+<style>
+   body{
+    background-color: cadetblue;
+    font-family: 'Times New Roman', Times, serif;
+   }
+   .container{
+    width:250px;
+    height:520px;
+    margin: 480px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    justify-content: center;
+    background-color: aliceblue;
+    display:flexbox;
+    padding: 200px;
+    padding-block: 10px;
+    border-radius: 15px;
+   }
+   form{
+    width:200px;
+    margin-left: 20px;
+    justify-content: center;
+    margin-left: 30px;
+   }
+   form label{
+    font-size: 20px;
+    margin-top: 20px;
+    color: black;
+   }
+   form input{
+    width:100%;
+    height:20px;
+    border-color: black;
+    text-align: left;
+    border-radius: 5px;
+   }
+   h1{
+    text-align: center;
+    justify-content: center;
+    text-shadow: 0px 10px 10px black;
+    color: orangered;
+   }
+   h3{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+   }
+   button{
+    border-radius: 20px;
+    background-color: lightskyblue;
+    color: black;
+    width:50%;
+   }
+   p{
+    font-size: medium;
+   }
+   a{
+    font-size: medium;
+    margin:20px
+   }
+
+</style>
+<body>
+    <div class="container">
+        <h1>Unique Door's</h1>
+        <h3> SIGN UP</h3>
+        <form>
+        <label for="Fname">First name :</label><br>
+        <input type="text" id="Fname" placeholder=""><br>
+        <label for="Lname">Last name :</label><br>
+        <input type="text" id="Lname" placeholder=""><br>
+        <label for="Gmailid">Gmail :</label><br>
+        <input type="text" id="Gmailid" placeholder=""><br>
+        <label for="Password">Password :</label><br>
+        <input type="text" id="Password" placeholder=""><br>
+        <label for="ConformPassword">ConformPassword :</label><br>
+        <input type="text" id="ConformPassword" placeholder=""><br>
+        <a href="#">Forget Password</a> <br><br>
+        <button class="Submit"> 
+            <a href="webpage.html" style="color: black;text-decoration: none;">Submit</a>
+        </button> 
+        <p>Already you have an account</p> 
+        <a href="login_page.html">Login here</a> 
+        </form>
+        
+    </div>
+    <script src="first.js"></script>
+</body>
+</html>

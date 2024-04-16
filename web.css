@@ -1,0 +1,111 @@
+body{
+    margin:0%;
+    padding:0%;
+    background-color:white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+   }
+   img{
+    width:250px;
+    height:250px;
+    padding:30px;
+   }
+   nav{
+        border: 30px;
+        margin:30px;
+   }
+   h3{
+       padding:20px;
+       text-decoration:underline;
+       text-transform: uppercase;
+       color:orange;
+       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+   }
+   .bar{
+       background-color:white;
+       box-shadow: 0px 5px 8px 0px;
+       text-align: center;
+       font-family: italic;
+       justify-content: center;
+       border-radius: 5px;
+       
+    }
+    p{
+        color:black;
+    }
+    li{
+      display: inline-block;
+      font-size: 25px;
+      padding: 50px;
+      margin-left:20px;
+      border-radius: 5px;
+    }
+    li:hover{
+        color:red;
+    }
+    .dropdown{
+        display: inline-block;
+        position: relative;
+    }
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        background-color:blanchedalmond;
+        color: black;
+        min-width:100px;
+        min-height: 150px;
+        height:25px;
+        font-size: 15px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding:12px;
+        z-index:1;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .dropdown:hover{
+        color:red;
+    }
+    footer{
+        background-color: darkslategrey;
+        padding: 120px;
+        margin: 10px;
+        height: 100px;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        font-size: 15px;
+        column-count: 6;
+        column-gap: 50px;
+    }
+    button:hover{
+        color:white;
+        
+    }
+
+    /* it is basically used for screening to view in laptop and mobile */
+      
+    /* Your existing CSS styles */
+
+/* Media query for smaller screens (less than 768px) */
+@media only screen and (max-width: 720px) {
+    body {
+        /* Example: Adjust body font-size for smaller screens */
+        font-size: 14px;
+    }
+
+    /* Example: Adjust the width of .item divs */
+    .item {
+        width: 100%; /* Adjust as needed */
+        margin-left: 0; /* Adjust as needed */
+    }
+
+    /* Example: Adjust the padding of img elements */
+    img {
+        width: 100%; /* Adjust as needed */
+        height: auto; /* To maintain aspect ratio */
+        padding: 10px; /* Adjust as needed */
+    }
+    
+    /* Add more styles for smaller screens as needed */
+}
